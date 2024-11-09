@@ -4,10 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   background: #101215;
-  color: #f8f8f8;
   font-family: 'Suse', sans-serif;
   margin: 0;
   padding: 0;
@@ -27,7 +25,6 @@ body {
 .title {
   font-family: 'Suse', sans-serif;
   font-size: 4rem;
-  color: #f8f8f8;
   text-align: center;
   margin-top: 15%;
   font-weight: 300;
@@ -37,6 +34,18 @@ body {
 .subtitle {
   text-align: center;
   text-transform: uppercase;
+}
+
+a[target='_blank'] {
+  position: relative;
+  margin-right: 15px;
+
+  &::after {
+    position: absolute;
+    bottom: -1px;
+    right: -15px;
+    content: '\29C9';
+  }
 }
 
 @keyframes fadeIn {

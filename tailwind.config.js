@@ -14,7 +14,10 @@ module.exports = {
     extend: {
       colors: {
         // Couleur personnalisée pour les liens, titres, etc.
-        primary: '#A5837C',  // Utilisé pour mettre en valeur certains éléments
+        primary: '#f5b98d',  // Utilisé pour mettre en valeur certains éléments
+      },
+      fontFamily: {
+        'iceberg': ['Iceberg', 'sans-serif'], // Ajout de la police Iceberg
       },
       keyframes: {
         fadeInUp: {
@@ -32,23 +35,30 @@ module.exports = {
             a: {
               color: theme('colors.primary'),
               '&:hover': {
-                color: theme('colors.rose.300'),  // Couleur de survol des liens
+                color: theme('colors.orange.200'),  // Couleur de survol des liens
               },
             },
             h1: {
               color: theme('colors.white'),
             },
             h2: {
-              color: theme('colors.primary'),
+              color: theme('colors.gray.300'),
             },
             h3: {
               color: theme('colors.white'),
             },
             p: {
-              marginTop: theme('spacing.4'),
               marginBottom: theme('spacing.4'),
               color: theme('colors.gray.300'),
             },
+            strong: {
+              color: theme('colors.zinc.200'),
+            },
+            img: {
+              borderRadius: theme('spacing.2'),
+              border: '2px solid',
+              borderColor: theme('colors.zinc.700')
+            }
           },
         },
       }),

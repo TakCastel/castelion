@@ -4,7 +4,7 @@
         
         <!-- Image Content for Mobile -->
         <div class="w-32 h-32 lg:w-1/3 flex justify-center items-center lg:order-2 -mt-28 mb-4 lg:mb-0 lg:mt-0 lg:p-10">
-          <img src="@/assets/avatar.jpg" alt="Tarik Talhaoui" class="w-full h-auto rounded-full shadow-md saturate-0">
+          <img src="@/assets/avatar.png" alt="Tarik Talhaoui" class="w-full h-auto rounded-full shadow-md saturate-0">
         </div>
   
         <!-- Text Content -->
