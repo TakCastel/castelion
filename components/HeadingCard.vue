@@ -1,11 +1,11 @@
 <template>
-  <div class="prose prose-primary simple-card p-6 w-full m-auto text-white relative h-full flex flex-col justify-between" :class="{ 'pt-20' : showAvatar }">
+  <div class="prose prose-primary simple-card p-6 w-full m-auto text-white relative h-full flex flex-col justify-between" :class="{ 'pt-10' : showAvatar }">
     <!-- Affichage de l'avatar si showAvatar est vrai -->
     <div v-if="showAvatar" class="absolute top-[-2rem] left-1/2 transform -translate-x-1/2 z-10">
       <img 
         src="@/assets/avatar.png" 
         alt="Avatar" 
-        class="w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg"
+        class="not-prose w-24 h-24 rounded-full object-cover border-4 border-white shadow-lg"
       />
     </div>
 
