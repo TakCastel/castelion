@@ -10,7 +10,7 @@
     ></div>
 
     <!-- Slot pour le contenu de la page -->
-    <div class="relative z-10">
+    <div class="relative z-10 p-6">
       <slot></slot>  <!-- Le contenu de index.vue sera injecté ici -->
     </div>
   </div>

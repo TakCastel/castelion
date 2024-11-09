@@ -57,7 +57,9 @@ module.exports = {
             img: {
               borderRadius: theme('spacing.2'),
               border: '2px solid',
-              borderColor: theme('colors.zinc.700')
+              borderColor: theme('colors.zinc.700'),
+              backgroundColor: theme('colors.zinc.100'),
+              padding: theme('spacing.4')
             }
           },
         },

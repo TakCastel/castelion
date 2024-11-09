@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden p-5 ">
+  <div class="relative overflow-hidden">
     <!-- Titre au centre de la première section -->
     <div class="flex items-center justify-center min-h-96 relative z-10">
       <HeadingTitle>Tarik Talhaoui</HeadingTitle>
@@ -7,7 +7,7 @@
   </div>
 
     <!-- Section avec une carte affichée dans la première section -->
-    <div class="grid grid-cols-2 gap-6 md:w-3/5 md:mx-auto p-5">
+    <div class="grid grid-cols-2 gap-6 md:w-3/5 md:mx-auto">
       <!-- Première carte avec largeur dynamique -->
       <div class="col-span-2">
         <HeadingCard :showAvatar="true">
